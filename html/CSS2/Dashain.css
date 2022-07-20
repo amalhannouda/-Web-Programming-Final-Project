@@ -1,0 +1,133 @@
+body{
+  width: 90%;
+  background-image: linear-gradient(rgba(0, 0, 0,0.7),rgba(0, 0, 0, 0.7)),url("image2/Colorful-tihar.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 5%;
+}
+@font-face {
+font-family:"Roboto-Medium";
+src: url("CSS2/fonts/Roboto-Medium.ttf");
+}
+h1{
+text-align: center;
+font-size: 200%;
+color: black;
+}
+.row{
+  display: flex;
+  height: auto;
+  align-items: center;
+}
+.col{
+  flex-basis: 40%;
+}
+.col1{
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  font-size: 110%;
+  font-family: Roboto-Medium;
+  text-align: justify;
+  margin: 10px;
+  padding: 20px;
+  text-indent: 20px;
+}
+.col2{
+  align-items: center;
+  margin-left: 5%;
+}
+button {
+  width: 180px;
+  background-color: #000;
+  border: .5px solid crimson;
+  border-radius: 10px;
+  color: #fff;
+  padding: 8px;
+  outline: none;
+  margin-top: 30px;
+  margin-left:auto;
+  margin-right:auto;
+  display:block;
+  cursor: pointer;
+   }
+h3{
+  font-size: 100%;
+  border: 1px solid white;
+  background-color: white;
+  text-align: center;
+}
+.card{
+  width: 45%;
+  height:230px;
+  display: inline-block;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin-bottom: 15px;
+  padding: 15px;
+  background-position: center;
+  background-size: cover;
+  transition: transform 0.5s;
+  border-radius: 10px;
+  color: black;
+  letter-spacing: 2px;
+  text-align: justify;
+  text-indent: 2%;
+}
+.card1{
+  background-image:url("image2/jamara.jpg") ;
+  margin-right: 5%;
+}
+.card2{
+  background-image:url("image2/fulpati.jpg");
+}
+.card3{
+  background-image:url("image2/tika.jpg");
+  margin-right: 5%;
+}
+.card4{
+  background-image:url("image2/dog-tihar.jpg");
+}
+.card:hover{
+  transform: translateY(-10px);
+}
+@media only screen and (max-width: 768px) {
+  body{
+    width: 90%;
+}
+.row{
+  display: block;
+}
+  .col1{
+    width: 80%;
+  }
+  .col2{
+    width: 80%;
+  }
+  .card{
+    width: 310px;
+    height:330px;
+}
+}
+@media screen and (max-width: 993px) and (min-width: 767px){
+  body{
+    width: 90%;
+}
+.card{
+  width: 30%;
+}
+.row{
+  display: block;
+}
+  .col1{
+    width: 80%;
+  }
+  .col2{
+    width: 80%;
+  }
+  .card{
+    width: 310px;
+    height:330px;
+}
+}

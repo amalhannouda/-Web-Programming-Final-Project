@@ -1,0 +1,99 @@
+body{
+  background-image: linear-gradient(rgba(0, 0, 0,0.7),rgba(0, 0, 0, 0.7)),url("image2/janai3.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 5%;
+}
+h1{
+text-align: center;
+font-size: 200%;
+color: black;
+}
+.col{
+  flex-basis: 60%;
+}
+.row{
+  display: flex;
+  height: auto;
+  align-items: center;
+}
+.col1{
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  text-align: justify;
+  font-size: 110%;
+  font-family: Times New Roman;
+  margin: 10px;
+  padding: 20px;
+  text-indent: 20px;
+}
+.col2{
+  align-items: center;
+  text-align: center;
+}
+button{
+  width: 180px;
+  background-color: #000;
+  border: .5px solid crimson;
+  border-radius: 10px;
+  color: #fff;
+  padding: 8px;
+  outline: none;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right:auto;
+  display:block;
+  cursor: pointer;
+}
+h3{
+  font-size: 100%;
+  border: 1px solid white;
+  background-color: white;
+}
+p{
+  font-size: 120%;
+}
+.card{
+  width: 380px;
+  height:400px;
+  display: inline-block;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 15px;
+  padding: 15px;
+  padding: auto;
+  background-position: center;
+  background-size: contain;
+  transition: transform 0.5s;
+  border-radius: 10px;
+  color: black;
+  letter-spacing: 2px;
+  text-align: justify;
+  text-indent: 2%;
+}
+.card1{
+  background-image:url("image2/janai1.jpg") ;
+}
+.card2{
+  background-image:url("image2/janai1.jpg");
+}
+.card:hover{
+  transform: translateY(-10px);
+}
+@media only screen and (max-width: 992px) {
+  body{
+    width: 90%;
+}
+.row{
+  display: block;
+}
+  .col1{
+    width: 80%;
+  }
+  .col2{
+    width: 80%;
+    height: auto;
+  }
+}
